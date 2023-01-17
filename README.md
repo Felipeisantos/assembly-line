@@ -1,4 +1,4 @@
-<h1 align="center">CONSUMER-API</h1>
+<h1 align="center">Assembly-Line</h1>
 
 
 # Objetivo do projeto
@@ -19,7 +19,7 @@
 #### 1ª Faça um clone da aplicação
 
 - `git clone https://github.com/Felipeisantos/assembly-line.git`
-- `cd consumer-api`
+- `cd assembly-line`
  
 ### Usando o maven para executar a aplicação
 
