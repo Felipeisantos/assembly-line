@@ -23,7 +23,7 @@
  
 ### Usando o maven para executar a aplicação
 
-#### 1º no diretorio da aplicação com o apache maven instalado, abra o terminal e execute o seguinte comando
+#### 2º no diretorio da aplicação com o apache maven instalado, abra o terminal e execute o seguinte comando
 
 ` mvn spring-boot:run `
 
