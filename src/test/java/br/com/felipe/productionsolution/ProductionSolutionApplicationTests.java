@@ -4,10 +4,9 @@ import br.com.felipe.productionsolution.Service.BussinessLayerService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 @SpringBootTest
 class ProductionSolutionApplicationTests {
@@ -21,7 +20,7 @@ class ProductionSolutionApplicationTests {
 
     @Test
     void testSearchIndexTimeLine() {
-        String words[] = "Pieces washing 45min\n".split(" ");
+        String[] words = "Pieces washing 45min\n".split(" ");
         assertEquals(2, bussinessLayerService.searchTimeStringIndex(words));
 
         words = "Axis calibration 30min 3d\n ".split(" ");
@@ -31,9 +30,10 @@ class ProductionSolutionApplicationTests {
         assertEquals(3, bussinessLayerService.searchTimeStringIndex(words));
 
         words = "Assembly line cooling - maintenance\n".split(" ");
-        assertEquals(null, bussinessLayerService.searchTimeStringIndex(words));
+        assertNull(bussinessLayerService.searchTimeStringIndex(words));
 
     }
+
     @Test
     void testGetTimeLine() {
         String time = "45min\n";
@@ -46,10 +46,10 @@ class ProductionSolutionApplicationTests {
         assertEquals(50, bussinessLayerService.safeConversionTime(time));
 
         time = "maintenance\n";
-        assertEquals(null, bussinessLayerService.safeConversionTime(time));
+        assertNull(bussinessLayerService.safeConversionTime(time));
 
         time = "        ";
-        assertEquals(null, bussinessLayerService.safeConversionTime(time));
+        assertNull(bussinessLayerService.safeConversionTime(time));
 
     }
 

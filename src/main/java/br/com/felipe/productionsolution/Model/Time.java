@@ -25,6 +25,7 @@ public class Time {
             minutes -= 60;
         }
     }
+
     public String getTime() {
         return hours + ":" + minutes;
     }
