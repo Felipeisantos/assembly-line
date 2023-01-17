@@ -1,0 +1,71 @@
+Test data (input.txt)
+------------------------------------------------------------
+
+Cutting of steel sheets 60min
+Austenpera (Heat treatment) 30min
+Tempering sub-zero (Heat treatment) 45min
+Safety sensor assembly 60min
+Pieces washing 45min
+Axis calibration 30min
+Steel bearing assembly 45min
+Assembly line cooling - maintenance
+Nitriding process 45min
+Injection subsystem assembly 60min
+Compliance check 30min
+Navigation subsystem assembly 60min
+Torque converter subsystem calibration 60min
+Left stabilizer bar alignment 30min
+Setup of lock and control device 45min
+Right stabilizer bar alignment 30min
+Seal installation 45min
+Application of decals 30min
+Monitoring subsystem assembly 30min
+Safety sensor assembly1 60min
+Tempering sub-zero (Heat treatment)1 45min
+Pieces washing1 45min
+Right stabilizer bar alignment1 30min
+Seal installation1 45min
+Left stabilizer bar alignment1 30min
+Monitoring subsystem assembly1 30min
+Application of decals1 30min
+Axis calibration1 30min
+Austenpera (Heat treatment)1 30min
+Austenpera test)1 20min
+Austenpera test)2 20min
+Navigation subsystem assembly 60min
+Torque converter subsystem calibration 60min
+Left stabilizer bar alignment 30min
+Setup of lock and control device 45min
+Cutting of steel sheets 60min
+Safety sensor assembly1 60min
+Safety sensor assembly1 60min
+Safety sensor assembly1 60min
+Safety sensor assembly1 60min
+Safety sensor assembly1 60min
+Austenpera (Heat treatment)1 30min
+Safety sensor assembly13 60min
+Safety sensor assembly9 60min
+Safety sensor assembly0 60min
+Safety sensor assembly1 60min
+Safety sensor assembly5 60min
+Safety sensor assembly3 60min
+Safety sensor assembly6 60min
+Safety sensor assembly7 60min
+Tempering sub-zero (Heat treatment)1 45min
+Safety sensor assembly 60min
+Pieces washing 45min
+Axis calibration 30min
+Steel bearing assembly 45min
+Assembly line cooling - maintenance
+Nitriding process 45min
+Injection subsystem assembly 60min
+Compliance check 30min
+Navigation subsystem assembly 60min
+Torque converter subsystem calibration 60min
+Left stabilizer bar alignment 30min
+Setup of lock and control device 45min
+Right stabilizer bar alignment 30min
+Seal installation 45min
+Application of decals 30min
+Monitoring subsystem assembly 30min
+Safety sensor assembly1 60min
