@@ -1,10 +1,11 @@
 package br.com.felipe.productionsolution.Model;
 
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Time {
+public class Time implements Serializable {
     private Integer hours;
     private Integer minutes;
     private Integer seconds;
@@ -50,7 +51,6 @@ public class Time {
     public Integer getMinutes() {
         return minutes;
     }
-
 
 
     public void setMinutes(Integer minutes) {
