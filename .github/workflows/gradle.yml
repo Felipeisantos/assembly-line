@@ -14,7 +14,7 @@ on:
     branches: [ "master" ]
 
 permissions:
-  contents: read
+  contents: read-all|write-all
 
 jobs:
   build:
@@ -33,7 +33,7 @@ jobs:
       with:
         arguments: build
     - name: build
-      run: gradle build
+      run: ./gradlew build
       
     - name: publish
       run: gradle publish
