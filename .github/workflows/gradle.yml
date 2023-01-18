@@ -27,7 +27,9 @@ jobs:
         with:
           java-version: 17
           distribution: 'adopt'
-          cache: gradle
+          cache: gradle          
+      - name: Build with Gradle
+        run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew build --scan --no-daemon
   build-with-gradle-build-action-cache:
@@ -38,7 +40,9 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 17
-          distribution: 'adopt'
+          distribution: 'adopt'          
+      - name: Build with Gradle
+        run: chmod +x gradlew
       - uses: gradle/gradle-build-action@v2
         with:
           arguments: build --scan
@@ -52,6 +56,8 @@ jobs:
           java-version: 17
           distribution: 'adopt'
           cache: gradle
+      - name: Build with Gradle
+        run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew build --scan --no-daemon
       - name: Archive test report
