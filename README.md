@@ -1,5 +1,6 @@
 <h1 align="center">Assembly-Line</h1>
 
+[![CI](https://github.com/Felipeisantos/assembly-line/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/Felipeisantos/assembly-line/actions/workflows/gradle.yml)
 
 # Objetivo do projeto
 <p>O projeto tem como objetivo gerar uma lista de linha de montagem a partir de um input.txt nele estão armazenados todos os dados da linha de montagem, o objetivo é gerar N linhas de montagens seguindo os padrões fornecidos pelo solicitante</p> 
