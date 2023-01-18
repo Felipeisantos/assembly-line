@@ -3,10 +3,12 @@ package br.com.felipe.productionsolution.Service.Impl;
 import br.com.felipe.productionsolution.Service.BussinessLayerService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
+@SpringBootTest
 class BussinessLayerServiceimplTest {
 
     @Autowired
@@ -14,7 +16,7 @@ class BussinessLayerServiceimplTest {
 
     @Test
     void searchTimeStringIndex() {
-        String[] words = "Pieces washing 45min\n".split(" ");
+        String[] words = "Pieces washing 45min \n".split(" ");
         assertEquals(2, bussinessLayerService.searchTimeStringIndex(words));
 
         words = "Axis calibration 30min 3d\n ".split(" ");
@@ -24,6 +26,9 @@ class BussinessLayerServiceimplTest {
         assertEquals(3, bussinessLayerService.searchTimeStringIndex(words));
 
         words = "Assembly line cooling - maintenance\n".split(" ");
+        assertEquals(4,bussinessLayerService.searchTimeStringIndex(words));
+
+        words = "Assembly line cooling tests\n".split(" ");
         assertNull(bussinessLayerService.searchTimeStringIndex(words));
 
     }
